@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Members</h1>
+  
+<ul>
+  {% for x in mygames %}
+    <li>{{ x.name }} {{ x.price }} {{ x.released_date }} {{ x.rating_score }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
